@@ -51,6 +51,24 @@ INSERT INTO PE_PE
 	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
 	"00000000-0000-0000-0000-000000000000",
 	1);
+INSERT INTO S_SYNC
+	VALUES ("dd7a9d8d-5a55-4441-967a-7da2295ec3f6",
+	"00000000-0000-0000-0000-000000000000",
+	'halt',
+	'',
+	'select any ctrl from instances of Controller;
+generate Controller3:''halt'' to ctrl;
+',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("dd7a9d8d-5a55-4441-967a-7da2295ec3f6",
+	1,
+	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
 INSERT INTO PE_PE
 	VALUES ("c266a8d5-aa61-43f4-9d01-7e2baedb603e",
 	1,
